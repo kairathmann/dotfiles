@@ -13,6 +13,6 @@ call plug#begin('~/.vim/plugged')
 " Notational FZF
 Plug 'https://github.com/alok/notational-fzf-vim'
 set rtp+=/usr/local/opt/fzf
-let g:nv_search_paths = ['~/Documents/notes']
+let g:nv_search_paths = ['~/notes']
 
 call plug#end()
