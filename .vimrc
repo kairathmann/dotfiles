@@ -9,10 +9,9 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'https://github.com/alok/notational-fzf-vim'
+call plug#end()
 
 " Notational FZF
-Plug 'https://github.com/alok/notational-fzf-vim'
 set rtp+=/usr/local/opt/fzf
 let g:nv_search_paths = ['~/notes']
-
-call plug#end()
