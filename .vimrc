@@ -10,6 +10,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/alok/notational-fzf-vim'
+Plug 'https://github.com/danro/rename.vim'
 call plug#end()
 
 " Notational FZF
