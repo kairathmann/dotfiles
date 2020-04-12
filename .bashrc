@@ -1,5 +1,11 @@
 # Include Git Bash completions
-source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash
+if [ -r /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash ]
+then
+	. /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash
+elif [ -r /usr/local/etc/profile.d/bash_completion.sh ]
+then
+	. /usr/local/etc/profile.d/bash_completion.sh
+fi
 
 export PATH="/usr/local/sbin:$PATH"
 source $HOME/.bash_aliases
