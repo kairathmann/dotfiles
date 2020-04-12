@@ -25,6 +25,7 @@ eval "$(rbenv init -)"
 [ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash
 
 export HISTCONTROL=ignorespace
+export HISTFILE="$HOME/OneDrive/dotfiles/.bash_history"
 export HISTFILESIZE=
 export HISTSIZE=
 export HISTTIMEFORMAT="%F %T "
