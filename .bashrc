@@ -31,3 +31,8 @@ export HISTSIZE=
 export HISTTIMEFORMAT="%F %T "
 PROMPT_COMMAND='history -a'
 shopt -s histappend
+
+# Have pyenv manage our Python version
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
