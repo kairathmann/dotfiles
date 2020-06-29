@@ -4,3 +4,5 @@
 	signingkey = 1A432B8E8B99C271
 [commit]
 	gpgsign = true
+[credential]
+	helper = store
